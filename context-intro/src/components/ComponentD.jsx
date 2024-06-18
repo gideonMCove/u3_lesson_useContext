@@ -1,5 +1,5 @@
 import { useContext } from "react";
-//import  DataContext  from "../DataContext";
+import  DataContext  from "../DataContext";
 
 export default function ComponentD() {
   const { userInfo, setUserInfo } = useContext(DataContext);
@@ -14,7 +14,7 @@ export default function ComponentD() {
         <li>Nephew/Neice of ComponentA</li>
       </ul>
 
-{/*       
+      
         <p>{userInfo.name}'s favorite food is </p>
         <p style={{ color: userInfo.favColor }}> {userInfo.favFood} </p>
    
@@ -44,7 +44,7 @@ export default function ComponentD() {
       </button>
       
       
-  */}
+ 
       
     </div>
   )
